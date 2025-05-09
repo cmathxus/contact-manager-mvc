@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\akirasz\\projects\\aspnetmvc-course\\MeuProjetoMVC\\MeuProjetoMVC.csproj",
-      "projectName": "MeuProjetoMVC",
-      "projectPath": "C:\\Users\\akirasz\\projects\\aspnetmvc-course\\MeuProjetoMVC\\MeuProjetoMVC.csproj",
+      "projectUniqueName": "C:\\Users\\akirasz\\projects\\aspnetmvc-course\\Meuprojetomvc\\contact-manager-mvc.csproj",
+      "projectName": "contact-manager-mvc",
+      "projectPath": "C:\\Users\\akirasz\\projects\\aspnetmvc-course\\Meuprojetomvc\\contact-manager-mvc.csproj",
       "packagesPath": "C:\\Users\\akirasz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\akirasz\\projects\\aspnetmvc-course\\MeuProjetoMVC\\obj\\",
+      "outputPath": "C:\\Users\\akirasz\\projects\\aspnetmvc-course\\Meuprojetomvc\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\akirasz\\AppData\\Roaming\\NuGet\\NuGet.Config"

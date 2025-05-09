@@ -1,4 +1,4 @@
-namespace MeuProjetoMVC.Models;
+namespace ContactManagerMvc.Models;
 
 public class ErrorViewModel
 {
