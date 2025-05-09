@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\akirasz\\projects\\aspnetmvc-course\\Meuprojetomvc\\contact-manager-mvc.csproj": {}
+    "C:\\Users\\akirasz\\projects\\aspnetmvc-course\\MeuProjetoMVC\\contact-manager-mvc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\akirasz\\projects\\aspnetmvc-course\\Meuprojetomvc\\contact-manager-mvc.csproj": {
+    "C:\\Users\\akirasz\\projects\\aspnetmvc-course\\MeuProjetoMVC\\contact-manager-mvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\akirasz\\projects\\aspnetmvc-course\\Meuprojetomvc\\contact-manager-mvc.csproj",
+        "projectUniqueName": "C:\\Users\\akirasz\\projects\\aspnetmvc-course\\MeuProjetoMVC\\contact-manager-mvc.csproj",
         "projectName": "contact-manager-mvc",
-        "projectPath": "C:\\Users\\akirasz\\projects\\aspnetmvc-course\\Meuprojetomvc\\contact-manager-mvc.csproj",
+        "projectPath": "C:\\Users\\akirasz\\projects\\aspnetmvc-course\\MeuProjetoMVC\\contact-manager-mvc.csproj",
         "packagesPath": "C:\\Users\\akirasz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\akirasz\\projects\\aspnetmvc-course\\Meuprojetomvc\\obj\\",
+        "outputPath": "C:\\Users\\akirasz\\projects\\aspnetmvc-course\\MeuProjetoMVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\akirasz\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,6 +43,28 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
