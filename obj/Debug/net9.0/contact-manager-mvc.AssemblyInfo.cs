@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("contact-manager-mvc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a16f96e818db54d04f2da06df6ba5b617fd14c9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c12d39ba0c1b6068f1436bf3d03dc791db239ade")]
 [assembly: System.Reflection.AssemblyProductAttribute("contact-manager-mvc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("contact-manager-mvc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\akirasz\\projects\\aspnetmvc-course\\MeuProjetoMVC\\contact-manager-mvc.csproj": {}
+    "C:\\Users\\akirasz\\projects\\aspnetmvc-course\\meuprojetomvc\\contact-manager-mvc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\akirasz\\projects\\aspnetmvc-course\\MeuProjetoMVC\\contact-manager-mvc.csproj": {
+    "C:\\Users\\akirasz\\projects\\aspnetmvc-course\\meuprojetomvc\\contact-manager-mvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\akirasz\\projects\\aspnetmvc-course\\MeuProjetoMVC\\contact-manager-mvc.csproj",
+        "projectUniqueName": "C:\\Users\\akirasz\\projects\\aspnetmvc-course\\meuprojetomvc\\contact-manager-mvc.csproj",
         "projectName": "contact-manager-mvc",
-        "projectPath": "C:\\Users\\akirasz\\projects\\aspnetmvc-course\\MeuProjetoMVC\\contact-manager-mvc.csproj",
+        "projectPath": "C:\\Users\\akirasz\\projects\\aspnetmvc-course\\meuprojetomvc\\contact-manager-mvc.csproj",
         "packagesPath": "C:\\Users\\akirasz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\akirasz\\projects\\aspnetmvc-course\\MeuProjetoMVC\\obj\\",
+        "outputPath": "C:\\Users\\akirasz\\projects\\aspnetmvc-course\\meuprojetomvc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\akirasz\\AppData\\Roaming\\NuGet\\NuGet.Config"
