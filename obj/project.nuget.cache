@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2NgqQYMBkhk=",
+  "dgSpecHash": "uPnnplRdU2g=",
   "success": true,
-  "projectFilePath": "C:\\Users\\akirasz\\projects\\aspnetmvc-course\\meuprojetomvc\\contact-manager-mvc.csproj",
+  "projectFilePath": "C:\\Users\\akirasz\\projects\\aspnetmvc-course\\MeuProjetoMVC\\contact-manager-mvc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\akirasz\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\akirasz\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

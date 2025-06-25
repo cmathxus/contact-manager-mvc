@@ -16,7 +16,8 @@ namespace ContactManagerMvc.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            List<ContatoModel> contatos = _contatoRepositorio.BuscarTodos();
+            return View(contatos);
         }
 
         public IActionResult Criar()
@@ -29,9 +30,16 @@ namespace ContactManagerMvc.Controllers
             return View();
         }
 
-        public IActionResult ApagarConfirmacao()
+        public IActionResult Apagar(int id)
         {
-            return View();
+            _contatoRepositorio.Apagar(id);
+            return RedirectToAction("Index");
+        }
+
+        public IActionResult ApagarConfirmacao(int id)
+        {
+            ContatoModel contato = _contatoRepositorio.ListarPorId(id);
+            return View(contato);
         }
 
         [HttpPost]

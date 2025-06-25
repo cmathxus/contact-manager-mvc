@@ -1,6 +1,6 @@
-using ContactManagerMvc.Models; 
-using ContactManagerMvc.Repositorio; 
-using ContactManagerMvc.Data; 
+using ContactManagerMvc.Models;
+using ContactManagerMvc.Repositorio;
+using ContactManagerMvc.Data;
 
 namespace ContactManagerMvc.Repositorio
 {
@@ -14,9 +14,28 @@ namespace ContactManagerMvc.Repositorio
             _bancoContext = bancoContext;
         }
 
+        public List<ContatoModel> BuscarTodos()
+        {
+            return _bancoContext.Contatos.ToList();
+        }
+
+        public ContatoModel ListarPorId(int id)
+        {
+            return _bancoContext.Contatos.FirstOrDefault(x => x.Id == id);
+        }
+
+        public bool Apagar(int id)
+        {
+            ContatoModel contato = ListarPorId(id);
+            if (contato == null) throw new Exception("Erro ao apagar o contato");
+
+            _bancoContext.Contatos.Remove(contato);
+            _bancoContext.SaveChanges();
+            return true;
+        }
+
         public ContatoModel Adicionar(ContatoModel contato)
         {
-            // Gravar no banco de dados
             _bancoContext.Contatos.Add(contato);
             _bancoContext.SaveChanges();
             return contato;
