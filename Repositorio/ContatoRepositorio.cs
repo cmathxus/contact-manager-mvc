@@ -14,14 +14,14 @@ namespace ContactManagerMvc.Repositorio
             _bancoContext = bancoContext;
         }
 
-        public List<ContatoModel> BuscarTodos()
-        {
-            return _bancoContext.Contatos.ToList();
-        }
-
         public ContatoModel ListarPorId(int id)
         {
             return _bancoContext.Contatos.FirstOrDefault(x => x.Id == id);
+        }
+
+        public List<ContatoModel> BuscarTodos()
+        {
+            return _bancoContext.Contatos.ToList();
         }
 
         public bool Apagar(int id)
